@@ -30,19 +30,20 @@ a{
     text-decoration: none;
     color: white;
     font-weight: bold;
+    transition: 0.5s;
 }
 
 a:hover{
     color: #23b2a4;
-    transition: all 1s ease;
 }
 
 .section1{
     display: flex;
-    height: 1000px;
+    height: 100vh;
     width: auto;
     background-image: url('./assets/Fond\ page\ d\'acceuil.jpeg');
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .texte{
@@ -52,5 +53,18 @@ a:hover{
     font-size:100px;
     width: 600px;
     color: white;
+    font-weight: bold;
+}
+
+.section2{
+    height: 100vh;
+    border: 5px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-cible{
+   height: 500px;
 }
 
