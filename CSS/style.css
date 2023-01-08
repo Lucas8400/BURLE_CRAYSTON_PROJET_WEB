@@ -7,21 +7,25 @@ body{
 }
 
 header{
+    width: 100%;
+    position: fixed;
+    z-index: 99;
     background-color: black;
-    height: 15vh;
+    height: 13vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    top: 0;
 }
 
-.container-text{
+.container-button{
     width: 50%;
     display: flex;
     justify-content: space-around;
 }
 
 .logo-yfitness{
-    height: 100px;
+    height: 4.5vw;
     margin-top: 1.5%;
     
 }
@@ -40,31 +44,135 @@ a:hover{
 .section1{
     display: flex;
     height: 100vh;
-    width: auto;
-    background-image: url('./assets/Fond\ page\ d\'acceuil.jpeg');
-    background-size: 100%;
+    background-image: url("./assets/page_acceuil.jpeg");
+    background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 8vh;
 }
 
 .texte{
-    display: flex;
-    margin-left: 70px;
-    margin-top: 80px;
-    font-size:100px;
-    width: 600px;
+    position: relative;
+    top: 20vh;
+    left: 9vw;
+    font-size: 4vw;
     color: white;
     font-weight: bold;
 }
 
 .section2{
+    background-color: black;
     height: 100vh;
-    border: 5px solid red;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .logo-cible{
    height: 500px;
 }
+
+h1{
+    color: white;
+    font-size: 45px;
+    border-bottom: 2px solid #23b2a4;
+    border-bottom-width: 50%;
+    padding-bottom: 50px;
+}
+
+.text-mission{
+    color: white;
+    line-height: 5vh;
+    font-size: 25px;
+    text-align: center;
+    width: 50%;
+}
+
+.section3{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-programmes{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.programme{
+    height: 90%;
+    width: 30%;
+    margin: 0 6%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.debutant{
+    background: url("./assets/débutant.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70%;
+    
+}
+
+.intermediaire{
+    background: url("./assets/intermédiaire.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70%;
+}
+
+.confirme{
+    background: url("./assets/confirmé.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70%;  
+}
+
+.tittle-programme{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 22%;
+    transform: translateY(150%);
+    transition: all 0.5s ease;
+}
+
+.text-programme{
+    color: white;
+    font-size: 1vw;
+    font-weight: normal;
+    transform: translateY(230%) ;
+    transition: all 0.5s ease;
+    opacity: 0;
+    
+}
+
+.programme:hover .tittle-programme{
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.programme:hover{
+    transform: scale(1.1);
+}
+
+.programme:hover .text-programme{
+    transform: translateY(100%);
+    opacity: 1;
+}
+
+
+
 
