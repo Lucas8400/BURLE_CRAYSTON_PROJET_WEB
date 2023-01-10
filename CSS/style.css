@@ -6,6 +6,8 @@ body{
     margin: 0;
 }
 
+/*---------------------Page d'acceuil---------------------*/
+
 header{
     width: 100%;
     position: fixed;
@@ -25,7 +27,7 @@ header{
 }
 
 .logo-yfitness{
-    height: 4.5vw;
+    height: 70px;
     margin-top: 1.5%;
     
 }
@@ -41,7 +43,7 @@ a:hover{
     color: #23b2a4;
 }
 
-.section1{
+.section1-acceuil{
     display: flex;
     height: 100vh;
     background-image: url("./assets/page_acceuil.jpeg");
@@ -59,7 +61,7 @@ a:hover{
     font-weight: bold;
 }
 
-.section2{
+.section2-acceuil{
     background-color: black;
     height: 100vh;
     display: flex;
@@ -74,7 +76,7 @@ a:hover{
 
 h1{
     color: white;
-    font-size: 45px;
+    font-size: 2.5vw;
     border-bottom: 2px solid #23b2a4;
     border-bottom-width: 50%;
     padding-bottom: 50px;
@@ -83,14 +85,14 @@ h1{
 .text-mission{
     color: white;
     line-height: 5vh;
-    font-size: 25px;
+    font-size: 1.5vw;
     text-align: center;
     width: 50%;
 }
 
-.section3{
+.section3-acceuil{
     background-color: black;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,7 +101,7 @@ h1{
 
 .container-programmes{
     height: 60vh;
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
     padding-top: 50px;
@@ -108,13 +110,30 @@ h1{
 .programme{
     height: 90%;
     width: 30%;
-    margin: 0 6%;
+    margin: 0 3%;
     border-radius: 50px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.programme::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 250px; 
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
+    opacity: 0; 
+    transition: all 0.5s ease;
+}
+
+.programme:hover::before{
+    opacity: 0.8;
 }
 
 
@@ -123,7 +142,6 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 70%;
-    
 }
 
 .intermediaire{
@@ -142,9 +160,9 @@ h1{
 
 .tittle-programme{
     color: white;
-    font-size: 40px;
+    font-size: 2vw;
     position: relative;
-    top: 22%;
+    top: 26%;
     transform: translateY(150%);
     transition: all 0.5s ease;
 }
@@ -156,7 +174,8 @@ h1{
     transform: translateY(230%) ;
     transition: all 0.5s ease;
     opacity: 0;
-    
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .programme:hover .tittle-programme{
@@ -172,6 +191,10 @@ h1{
     transform: translateY(100%);
     opacity: 1;
 }
+
+/*---------------------Débutant---------------------*/
+
+
 
 
 
