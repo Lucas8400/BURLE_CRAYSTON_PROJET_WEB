@@ -4,6 +4,7 @@
 
 body{
     margin: 0;
+    background-color: #F0F0F2;
 }
 
 /*---------------------Page d'acceuil---------------------*/
@@ -74,11 +75,10 @@ a:hover{
    height: 500px;
 }
 
-h1{
+.h1-acceuil{
     color: white;
     font-size: 2.5vw;
     border-bottom: 2px solid #23b2a4;
-    border-bottom-width: 50%;
     padding-bottom: 50px;
 }
 
@@ -194,7 +194,23 @@ h1{
 
 /*---------------------Débutant---------------------*/
 
+.section1-debutant{
+    width: 100%;
+    height: 90vh;
+    margin-top: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
 
+.h1-debutant{
+    color: black;
+    font-size: 2.5vw;
+    border-bottom: 2px solid #23b2a4;
+    padding-bottom: 50px;
+    position: relative;
+    top: 50px;
+}
 
 
 
