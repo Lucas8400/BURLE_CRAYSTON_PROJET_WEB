@@ -320,6 +320,143 @@ em{
     font-weight: bold;
 }
 
+/*---------------------Nutrition---------------------*/
+
+.fond-nutri{
+    width: 100%;
+    height: 100vh;
+    margin-top: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.9) url('./assets/nutri.jpg') no-repeat center center/cover;
+    background-blend-mode: darken;
+}
+
+.intro-nutri{
+    display: flex;
+    position: relative;
+    color: white;
+    line-height: 5vh;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    border-top: 2px solid #23b2a4;
+    padding-top: 40px;
+}
+
+.back-nutri{
+    width: 100%;
+    height: 160vh;
+    background-color: black;
+    margin-top: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-blend-mode: darken;
+}
+
+.infos-nutri{
+    display: flex;
+    position: relative;
+    color: white;
+    line-height: 5vh;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    border-top: 2px solid #23b2a4;
+    padding-top: 40px;
+}
+
+.infos-nutri2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    color: white;
+    line-height: 5vh;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+}
+.infos-nutri3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    color: white;
+    line-height: 5vh;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    margin-top: -3px;
+}
+
+.button-nutri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 50px;
+    color: #23b2a4;
+    border: 2px solid #23b2a4;
+    border-radius: 70px;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-top: 50px;
+}
+
+.button-nutri:hover{
+    transform: translateY(20%);
+    opacity: 1;
+}
+
+.back-protéines{
+    width: 100%;
+    height: 135vh;
+    margin-top: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.85) url('./assets/viandes.jpg') no-repeat center center/cover;
+    background-blend-mode: darken;
+}
+
+.back-lipides{
+    width: 100%;
+    height: 120vh;
+    margin-top: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.85) url('./assets/lipides.jpg') no-repeat center center/cover;
+    background-blend-mode: darken;
+}
+
+.back-fibres{
+    width: 100%;
+    height: 155vh;
+    margin-top: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.85) url('./assets/fibres.jpg') no-repeat center center/cover;
+    background-blend-mode: darken;
+}
+
+
+
+
+
+
+
 
 
 
