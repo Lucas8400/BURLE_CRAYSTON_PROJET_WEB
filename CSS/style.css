@@ -189,7 +189,7 @@ a:hover{
 
 /*---------------------Débutant---------------------*/
 
-.section1-debutant{
+.section1-programmes{
     width: 100%;
     height: 100vh;
     margin-top: 0vh;
@@ -319,6 +319,89 @@ em{
     color: #23b2a4;
     font-weight: bold;
 }
+
+/*---------------------Intermédiaire---------------------*/
+
+.ctn-exos-intermediaire{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+.ctn-push-pull-legs{
+    border: 1px solid white;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2px;
+    font-size: 18px;
+}
+
+h2{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.exos-intermediaire{
+    color: white;
+}
+
+.serie-intermediaire{
+    color: #23b2a4;
+}
+
+.section3-intermediaire{
+    background-color: black;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.ctn-conseils-intermediaire{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*---------------------Nutrition---------------------*/
 
