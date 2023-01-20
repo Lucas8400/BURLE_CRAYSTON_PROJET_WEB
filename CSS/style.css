@@ -374,43 +374,6 @@ h2{
     bottom: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*---------------------Nutrition---------------------*/
 
 .fond-nutri{
@@ -574,8 +537,8 @@ h2{
 }
 
 .conseils-button{
-    height: 90%;
-    width: 30%;
+    height: 380px;
+    width: 380px;
     margin: 0 3%;
     border-radius: 190px;
     display: flex;
@@ -684,6 +647,256 @@ h2{
     flex-direction: column;
 }
 
+@media (max-width: 1200px){
+    .container-programmes{
+        height: 90%;
+        flex-wrap: wrap;
+    }
+    .section3-acceuil{
+        height: 150vh;
+    }
+    .programme{
+        height: 30%;
+        width: 100%;
+    }
+    .text-mission{
+        padding-bottom: 300px;
+        width: 75%;
+        height: 70%;
+    }
+    .tittle-programme{
+        font-size: 35px;  
+    }
+    .programme:hover .tittle-programme{
+        transform: translateY(-10%);
+    }
+    .text-programme{
+        font-size: 15px; 
+    }
+    .programme:hover .text-programme{
+        transform: translateY(90%);
+    }
+   
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .programme:hover .text-programme{
+        transform: translateY(150%);
+    }
+}
+
+@media (max-width: 1485px){
+    .introduction-programme{
+        width: 75%;
+    }
+    .section2-debutant{
+        height: 185vh;
+    }
+    .container-exos-conseils{
+        flex-wrap: wrap;
+    }
+    .container-exos{
+        width: 90%;
+        padding-left: 0;
+    }
+    .container-conseils{
+        padding-right: 0;
+    }
+    .text-conseils{
+        width: 170%;
+    }
+}
+
+@media (max-width:580px){
+    .text-exos{
+        font-size: 15px;
+    }
+    .section1-programmes{
+        height: 120vh;
+    }
+    .text-conseils{
+        font-size: 15px;
+    }
+    .container-buttons{
+        width: 170%;
+    }
+    .h1-blanc{
+        text-align: center;
+        padding-top: 100px;
+    }
+    .h1-noir{
+        text-align: center;
+        padding-top: 100px;
+    }
+    .exos-intermediaire{
+        font-size: 15px;
+    }
+
+
+    .infos-nutri{
+        width: 80%;
+        font-size: 15px;
+    }
+    .infos-nutri2{
+        width: 80%;
+        font-size: 15px;
+    }
+    .infos-nutri3{
+        width: 80%;
+        font-size: 15px;
+    }
+    .intro-nutri{
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .intro-conseils{
+        font-size: 15px;
+    }
+    .intro-conseils2{
+        font-size: 15px;
+    }
+    .nutriment-back{
+        height: 260vh;
+    }
+
+    .exercices-back{
+        height: 200vh;
+    }
+}
+
+@media (max-width:1525px){
+    .page-inter{
+        height: 235vh;
+    }
+    .ctn-exos-intermediaire{
+        flex-wrap: wrap;
+    }
+    .ctn-push-pull-legs{
+        height: 550px;
+        width: 100%;
+    }
+    .page-confirme{
+        height: 130vh;
+        padding-top: 200px;
+    }
+}
+
+@media (max-width:1200px){
+    .fond-nutri{
+        height: 130vh;
+    }
+    .back-nutri{
+        height: 230vh;
+    }
+    .back-protéines{
+        height: 150vh;
+    }
+    .back-lipides{
+        height: 150vh;
+    }
+    .back-fibres{
+        height: 200vh;
+    }
+    .intro-conseils{
+        width: 80%;
+    }
+    .intro-conseils2{
+        width: 80%;
+    }
+    .intro-nutri{
+        width: 80%;
+    }
+
+    .choix{
+        flex-wrap: wrap;
+        height: 70vh;
+    }
+    .conseils-button{
+        height: 250px;
+        width: 100%;
+        border-radius: 100px;
+    }
+    .tittle-conseils{
+        font-size: 25px;
+    }
+    .conseils-back{
+        height: 110vh;
+    }
+}
+
+@media (max-width:780px){
+    .infos-nutri{
+        width: 80%;
+    }
+    .infos-nutri2{
+        width: 80%;
+    }
+    .infos-nutri3{
+        width: 80%;
+    }
+    .intro-nutri{
+        width: 80%;
+    }
+}
+
+@media (max-width:420px){
+    .nutriment-back{
+        height: 300vh;
+    }
+
+    .exercices-back{
+        height: 220vh;
+    }
+    .conseils-back{
+        height: 120vh;
+    }
+}
+
+.more .btn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+    font-weight: bold;
+}
+
+.more-menu {
+    display: none;
+    position: absolute;
+    background-color: black;
+    
+}
+
+.more-menu a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+}
+
+.more:hover .more-menu {
+    display: block;
+}
+
+.more{
+    display: none;
+}
+
+@media(max-width:1000px){
+    .container-button{
+        display: none;
+    }
+    .more{
+        display: block;
+    }
+}
 
 
 
